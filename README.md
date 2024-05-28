@@ -1,1 +1,1 @@
-# docs.pockethost.io
+# pockethost.io static site
