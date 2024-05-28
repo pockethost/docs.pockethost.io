@@ -58,10 +58,10 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'PocketHost',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'PocketHost Logo',
+        src: 'img/pockethost-cloud-logo.jpg',
       },
       items: [
         {
@@ -71,6 +71,11 @@ const config: Config = {
           label: 'Tutorial',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
+        {
+          href: 'https://app.pockethost.io',
+          label: 'Dashboard',
+          position: 'right',
+        },
         {
           href: 'https://github.com/pockethost/pockethost.io',
           label: 'GitHub',
